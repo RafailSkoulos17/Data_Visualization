@@ -1,0 +1,68 @@
+   */
+  .axis text {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .bar {
+    fill: steelblue;
+    fill-opacity: .9;
+  }
+  
+  .bar:hover {
+    fill: orange;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  
+.line {
+    fill: none;
+    stroke: #9a5ea1;
+    stroke-width: 3;
+}
+.dot {
+    fill: #98823c;
+    stroke: rgb(3, 3, 3);
+}
+.container1 {
+  float: left;
+  width:  50%;
+  height: 100%;
+}
+.container2 {
+  float: right;
+  width: 50%;
+  height: 100%;
+
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 9px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
